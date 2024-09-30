@@ -1,4 +1,12 @@
-
+#' @title In-Place Addition
+#' 
+#' @description 
+#' Increase t by s
+#' 
+#' @param t (`numeric`)\cr
+#'  Variable to increase
+#' @param s (`numeric`)\cr
+#'  Amount to increase by
 `%+=%` <- function(t, s) eval.parent(substitute(t <- t + s))
 
 `%-=%` <- function(t, m) eval.parent(substitute(t <- t - m))

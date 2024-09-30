@@ -2,7 +2,7 @@ Package: inplaceops
 Title: In-Place Operations
 Version: 0.0.1
 Authors@R: c(
-  person(given = ..., family = ..., role = c("aut", "cre"), email = ...)
+  person(given = "Anne", family = "Klier", role = c("aut", "cre"), email = "anne.klier@iis.fraunhofer.de")
   )
 Description: In-place operations
 License: none
@@ -14,8 +14,8 @@ Config/testthat/edition: 3
 Config/testthat/parallel: true
 Roxygen: list(markdown = TRUE)
 Depends:
-    
 Imports:
     checkmate
 Suggests:
     testthat
+RoxygenNote: 7.3.2
