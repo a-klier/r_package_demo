@@ -1,12 +1,12 @@
-Package: <package name>
-Title: <title>
+Package: inplaceops
+Title: In-Place Operations
 Version: 0.0.1
 Authors@R: c(
   person(given = ..., family = ..., role = c("aut", "cre"), email = ...)
   )
-Description: <description>
-License: ...
-URL: ...
+Description: In-place operations
+License: none
+URL: https://github.com/a-klier/r_package_demo
 BugReports: ...
 ByteCompile: true
 Encoding: UTF-8
@@ -14,8 +14,8 @@ Config/testthat/edition: 3
 Config/testthat/parallel: true
 Roxygen: list(markdown = TRUE)
 Depends:
-    ...
+    
 Imports:
-    ...
+    checkmate
 Suggests:
     testthat
